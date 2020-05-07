@@ -1,0 +1,36 @@
+li.ideia-item {
+  background: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  padding: 20px;
+}
+
+li.ideia-item header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li.ideia-item header .user-info {
+  margin-left: 10px;
+}
+
+.user-info strong {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+
+.user-info span {
+  font-size: 13px;
+  color: #999;
+  margin-top: 2px;
+}
+
+li.ideia-item p {
+  margin-top: 5px;
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 10px;
+}
